@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 20230211.yaml
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 80d2b616-2c31-409a-855c-1a6b02ee11a6
+        file-extension: yaml
+        refresh-enabled: true
