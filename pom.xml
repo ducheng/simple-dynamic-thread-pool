@@ -39,20 +39,6 @@
 			<version>2.2.7.RELEASE</version>
 		</dependency>
 
-
-
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.8.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.alibaba.boot</groupId>
-			<artifactId>nacos-config-spring-boot-starter</artifactId>
-			<version>0.2.4</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

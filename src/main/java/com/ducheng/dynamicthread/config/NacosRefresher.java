@@ -2,17 +2,13 @@ package com.ducheng.dynamicthread.config;
 
 
 import com.alibaba.cloud.nacos.NacosConfigProperties;
-import com.alibaba.cloud.nacos.discovery.NacosDiscoveryClient;
 import com.alibaba.nacos.api.NacosFactory;
 import com.alibaba.nacos.api.config.ConfigService;
 import com.alibaba.nacos.api.exception.NacosException;
-import com.alibaba.nacos.spring.context.event.config.NacosConfigEvent;
-import com.alibaba.nacos.spring.context.event.config.NacosConfigReceivedEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.environment.EnvironmentChangeEvent;
-import org.springframework.cloud.context.scope.refresh.RefreshScopeRefreshedEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 /**
